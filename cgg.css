@@ -1,0 +1,145 @@
+body{
+	background: black;
+	text-align: center;
+	font-size: 14px;
+}
+
+p{
+	margin: 20px;
+}
+
+/*Reklam!*/
+#reklam_div{
+	margin: auto;
+	width: 500px;
+}
+#reklam {
+	font-family: Impact, Arial;
+	font-size: 140px;
+	background: url(blue-white.png) no-repeat;
+	background-size: 1000px 400px;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-property: linear;
+		
+	background-position-x: -500px;
+  }
+#reklam:hover{
+	background-position-x: 0px;
+}
+
+/*Besta Rock!*/
+#besta_div{
+	margin: auto;
+	width: 1000px;
+}
+#besta{
+	font-family: Impact, Arial;
+	font-size: 140px;
+	background: url(blue-white.png) no-repeat;
+	background-size: 2000px 400px;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-transition-duration: 2s;
+	-webkit-transition-property: linear;
+		
+	background-position-x: -1000px;
+  }
+#besta:hover{
+	background-position-x: 0px;
+}
+
+/*Rock Klassiker!*/
+
+#klassiker_div{
+	margin: auto;
+	width: 1000px;
+}
+
+#klassiker{
+	font-family: Impact, Arial;
+	font-size: 140px;
+	background: url(blue-white.png) no-repeat;
+	background-size: 2000px 400px;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-transition-duration: 2s;
+	-webkit-transition-property: linear;
+		
+	background-position-x: -1000px;
+  }
+#klassiker:hover{
+	background-position-x: 0px;
+}
+
+/*All together now!*/
+
+#complete_div{
+	margin: auto;
+	width: 1000px;
+}
+
+#complete{
+	font-family: Impact, Arial;
+	font-size: 35px;
+	background: url(blue-white.png) no-repeat;
+	background-size: 2000px 400px;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-transition-duration: 8000ms;
+	-webkit-transition-property: linear;
+		
+	background-position-x: -1000px;
+  }
+#complete:hover{
+	background-position-x: 0px;
+}
+
+/* Buttons (http://webdesignerwall.com/tutorials/css3-gradient-buttons) */
+
+.button {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% "Myriad Pro", Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+.blue {
+    color: #d8eef7;
+    border: solid 1px #0076a3;
+    background: rgb(4,159,249);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgb(4,159,249)), to(#0078a5));
+    background: -moz-linear-gradient(top,  rgb(4,159,249),  #0078a5);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+}
+.blue:hover {
+    background: #007ead;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+    background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+}
+.blue:active {
+    color: #80bed6;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+    background: -moz-linear-gradient(top,  #0078a5,  #00adee);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+}
+
